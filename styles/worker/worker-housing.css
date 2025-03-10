@@ -1,0 +1,271 @@
+.main-section{
+    background-color: #ABC3EF;
+}
+
+.main-heading{
+    padding: 12px 24px;
+    color: #FFF;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+}
+
+.main-heading h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.main-heading h5 {
+    margin: 0;
+    text-align: right;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.overview-content h1{
+    margin: 16px;
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blue-badge{
+    display: inline-block;
+    padding: 6px;
+    color: var(--primary-bright-color);
+    background-color: var(--primary-shade-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.badge-container{
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.housing-job-title h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.housing-job-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.housing-job-title h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.recent-housing-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pagination-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 0;
+}
+
+.pagination-button{
+    height: 40px;
+    width: 40px;
+    outline: none;
+    border: none;
+    color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: var(--primary-background-shade-color);
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+}
+
+.pagination-button:active {
+    transform: scale(.96);
+}
+
+.pagination-button:disabled,
+.pagination-button[disabled]{
+    transform: none;
+}
+
+.pagination-button-current{
+    height: 48px;
+    width: 48px;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    border-radius: 12px;
+    background-color: var(--primary-background-shade-color);
+}
+/* ----------------------- */
+.job-cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+
+
+.housing-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 190px;
+    margin: 8px 18px;
+    padding: 20px;
+    color: var(--primary-color);
+    background-color: #FFF;
+    border-radius: 12px;
+    border: 3px solid var(--primary-color);
+    font-family: 'Inter', sans-serif;
+}
+
+.housing-card:hover{
+    border: 3px solid var(--success-color);
+    cursor: pointer;
+}
+
+.card-text{
+    text-align: left;
+}
+
+.housing-card h3{
+    margin: 12px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.housing-card p{
+    margin: 0;
+    color: var(--dark-color);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.housing-card h4{
+    margin: 8px 0;
+    color: var(--dark-color);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.blue-badge{
+    display: inline-block;
+    padding: 6px;
+    color: var(--primary-bright-color);
+    background-color: var(--primary-shade-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.badge-container{
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.housing-job-card-button-row{
+    text-align: center;
+    padding: 8px 3px;
+}
+
+.housing-job-details-container{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 90vh;
+    transform: translate(-50%, -50%) ;
+    margin: 16px;
+    max-height: 60vh;
+    color: #102699;
+    background-color: #FFF;
+    border-radius: 16px;
+    opacity: 1;
+    visibility: hidden;
+}
+
+.housing-job-details-scroll-wrapper{
+    margin: 32px 48px;
+    margin-right: 24px;
+    padding-right: 24px;
+    overflow: auto;
+    height: calc(100% - 64px);
+}
+
+
+.housing-job-details-title{
+    padding: 16px 12px;
+    background-color: var(--primary-shade-color);
+    border-radius: 12px;
+}
+
+.housing-job-details-title h1{
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.status-container{
+    margin: 12px;
+    text-align: center;
+}
+
+.status-button{
+    outline: none;
+    border: none;
+    margin: 4px auto;
+    padding: 12px 24px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: var(--primary-bright-color);
+}
+
+.details-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.details-row h4{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.details-value{
+    padding: 8px;
+    width: 320px;
+    background-color: var(--primary-shade-color);
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+}
+
+.back-button-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    text-align: center;
+}
+
+.back-button-container button{
+    min-width: 80px;
+}

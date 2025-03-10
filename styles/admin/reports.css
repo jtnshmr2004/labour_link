@@ -1,0 +1,265 @@
+.pdf-generate-modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    min-width: 30vw;
+    transform: translate(-50%, -50%) ;
+    padding: 32px;
+    color: #102699;
+    background-color: #FFF;
+    border-radius: 24px;
+    opacity: 1;
+    visibility: hidden;
+    text-align: center;
+}
+
+.main-section{
+    background-color: #ABC3EF;
+}
+
+.sidebar-item-selected{
+    background-color: #ABC3EF;
+}
+
+.spinner {
+    animation: rotate 2s linear infinite;
+    margin: -25px 0 0 -25px;
+    width: 100px;
+    height: 100px;
+}
+
+.path {
+    stroke: hsl(240, 100%, 50%);
+    stroke-linecap: round;
+    animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+    }
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+    }
+}
+
+.main-content-container{
+    display:none;
+}
+.main-heading{
+    padding: 12px 24px;
+    color: #FFF;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+}
+
+.main-heading h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.main-heading h5{
+    margin: 0;
+    text-align: right;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.booking-reports{
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-reports h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.type-based-bookings{
+    display: flex;
+}
+
+.popular-booking-types-graph {
+    background-color: white;
+    padding: 15px;
+    border: 1px #102699 solid;
+    border-radius: 15px;
+    margin: 10px;
+    width: 30%;
+}
+
+.popular-booking-types-graph h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.monthly-booking-types-graph {
+    background-color: white;
+    padding: 15px;
+    border: 1px #102699 solid;
+    border-radius: 15px;
+    margin: 10px;
+    width: 65%;
+}
+
+.monthly-booking-types-graph h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.overall-bookings{
+    display: flex;
+}
+
+.total-booking-details-graph{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border: 1px #102699 solid;
+    border-radius: 15px;
+    margin: 10px;
+    width: 70%;
+}
+
+.total-booking-details-graph h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.ongoing-bookings-graph{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border: 1px #102699 solid;
+    border-radius: 15px;
+    margin: 10px;
+    width: 30%;
+}
+
+.ongoing-bookings-graph h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.user-reports{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-reports h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-reports-graphs{
+    display: flex;
+}
+
+.classification-of-users-graph{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border: 1px #102699 solid;
+    border-radius: 15px;
+    margin: 10px;
+    width: 50%;
+}
+
+.classification-of-users-graph h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.monthly-user-registration-graph{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border: 1px #102699 solid;
+    border-radius: 15px;
+    margin: 10px;
+    width: 50%;
+    height: fit-content;
+}
+
+.monthly-user-registration-graph h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.pdf-generate-section{
+    display: flex;
+    margin: 10px;
+    margin-top: 40px;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 15px;
+}
+
+.pdf-generate-header{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    align-items: center;
+    width: 90%;
+}
+
+.pdf-generate-header h1{
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pdf-generate-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf-generate-content img{
+    width: 40%;
+    height: auto;
+}
+
+.pdf-generate-content button{
+    width: 25%;
+    height: 50%;
+}
