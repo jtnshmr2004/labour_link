@@ -8,9 +8,12 @@
 
 ![Home page](assets/Home-page-screenshot.png)
 
----
-# Meet our team
-* [Ravindu Wegiriya](https://github.com/ravindu25)
-* [Mohamed Izzath](https://github.com/Mohamedizzath)
-* [Rushdha Rasheed](https://github.com/Rushdha20)
-* [Dhananga Deepanjana](https://github.com/DhanangaD)
+---LabourLink – Online Hiring Platform for Daily Wage Workers
+Objective: A web-based platform that connects daily wage workers with employers for job opportunities.
+Frontend: Developed using HTML, CSS, and JavaScript for an intuitive user experience.
+Backend: Built with PHP and MySQL to manage user authentication, job listings, and worker profiles.
+Key Features:
+Multilingual Support – Ensures accessibility for diverse users.
+Worker Profiles – Displays skills, experience, and availability.
+Job Listings & Applications – Employers can post jobs, and workers can apply easily.
+Location-Based Search – Helps users find jobs or workers nearby.
